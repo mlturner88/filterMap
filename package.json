@@ -1,5 +1,5 @@
 {
-  "name": "filtermap",
+  "name": "@mlturner/filter-map",
   "description": "Filter and map a collection at the same time",
   "files": ["dist"],
   "main": "./dist/filter-map.umd.js",

@@ -1,4 +1,4 @@
-# filterMap
+# @mlturner/filter-map
 
 Filter and map a collection (array-like, Map, Set, Generator or plain object) at the same time.
 This is done simultaneously versus filtering and then mapping.
@@ -16,11 +16,11 @@ If collection is `null` or `undefined` then an empty array is returned so no nee
 ## Installation
 
 ```
-npm i --save-dev filtermap
+npm i --save-dev @mlturner/filter-map
 
-yarn add filtermap
+yarn add @mlturner/filter-map
 
-pnpm i filtermap
+pnpm i @mlturner/filter-map
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ pnpm i filtermap
 Note: this also works with TypedArrays (e.g., `Int32Array`, etc.)
 
 ```javascript
-import { filterMap } from 'filtermap';
+import { filterMap } from '@mlturner/filter-map';
 
 const array = [2, 3, 7, 1, 9, 10, 0, -2];
 
@@ -45,7 +45,7 @@ const results = filterMap(
 ### Map
 
 ```javascript
-import { filterMap } from 'filtermap';
+import { filterMap } from '@mlturner/filter-map';
 
 const map = new Map();
 map.set(Symbol(1), 'kangaroo');
@@ -65,7 +65,7 @@ const results = filterMap(
 ### Plain Object
 
 ```javascript
-import { filterMap } from 'filtermap';
+import { filterMap } from '@mlturner/filter-map';
 
 const obj = {};
 obj.a = { x: 9 };
@@ -84,7 +84,7 @@ const results = filterMap(
 ### Set
 
 ```javascript
-import { filterMap } from 'filtermap';
+import { filterMap } from '@mlturner/filter-map';
 
 const set = new Set();
 set.add(4);
@@ -103,7 +103,7 @@ const results = filterMap(
 ### Generator Function
 
 ```javascript
-import { filterMap } from 'filtermap';
+import { filterMap } from '@mlturner/filter-map';
 
 function* generator(array) {
   for (const x of array) {
