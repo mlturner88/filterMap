@@ -1,5 +1,6 @@
 {
   "name": "filter-map",
+  "description": "Filter and map a collection at the same time",
   "files": ["dist"],
   "main": "./dist/filter-map.umd.js",
   "module": "./dist/filter-map.es.js",
@@ -10,6 +11,7 @@
     }
   },
   "version": "1.0.0",
+  "repository": "https://github.com/mlturner88/filterMap.git",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

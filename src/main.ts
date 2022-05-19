@@ -7,6 +7,10 @@ export type FilterMapCollection<T> =
 
 /**
  * Simultaneously filters and maps a collection
+ * @param collection Collection to be filtered and mapped
+ * @param predicateFn Predicate function to use for filtering
+ * @param mapFn Mapping function used to transform input
+ * @returns Filtered and transformed/mapped array
  */
 export function filterMap<T, O>(
   collection: FilterMapCollection<T> | undefined | null,
