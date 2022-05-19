@@ -1,5 +1,5 @@
 {
-  "name": "filter-map",
+  "name": "filtermap",
   "description": "Filter and map a collection at the same time",
   "files": ["dist"],
   "main": "./dist/filter-map.umd.js",

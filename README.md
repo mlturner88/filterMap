@@ -16,11 +16,11 @@ If collection is `null` or `undefined` then an empty array is returned so no nee
 ## Installation
 
 ```
-npm i --save-dev filter-map
+npm i --save-dev filtermap
 
-yarn add filter-map
+yarn add filtermap
 
-pnpm i filter-map
+pnpm i filtermap
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ pnpm i filter-map
 Note: this also works with TypedArrays (e.g., `Int32Array`, etc.)
 
 ```javascript
-import { filterMap } from 'filter-map';
+import { filterMap } from 'filtermap';
 
 const array = [2, 3, 7, 1, 9, 10, 0, -2];
 
@@ -45,7 +45,7 @@ const results = filterMap(
 ### Map
 
 ```javascript
-import { filterMap } from 'filter-map';
+import { filterMap } from 'filtermap';
 
 const map = new Map();
 map.set(Symbol(1), 'kangaroo');
@@ -65,7 +65,7 @@ const results = filterMap(
 ### Plain Object
 
 ```javascript
-import { filterMap } from 'filter-map';
+import { filterMap } from 'filtermap';
 
 const obj = {};
 obj.a = { x: 9 };
@@ -84,7 +84,7 @@ const results = filterMap(
 ### Set
 
 ```javascript
-import { filterMap } from 'filter-map';
+import { filterMap } from 'filtermap';
 
 const set = new Set();
 set.add(4);
@@ -103,7 +103,7 @@ const results = filterMap(
 ### Generator Function
 
 ```javascript
-import { filterMap } from 'filter-map';
+import { filterMap } from 'filtermap';
 
 function* generator(array) {
   for (const x of array) {
